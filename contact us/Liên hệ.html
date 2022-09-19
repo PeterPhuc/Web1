@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../cssheader-footer.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Liên hệ</title>
+</head>
+
+    <style>
+            #content {
+                width: 70%;
+                margin: 0px auto;
+                margin-top: 161px;
+                position: relative;
+                z-index: 1;
+            }
+
+            #content .container {
+	        	width: 80%;
+	            margin: auto;
+			    border-radius: 5px;
+			    background-color: #f2f2f2;
+			    padding: 20px;
+	        }
+            #content .container input {
+			    width: 100%;
+			    padding: 12px;
+			    border: 1px solid #ccc;
+			    border-radius: 4px;
+			    box-sizing: border-box;
+			    margin-top: 6px;
+			    margin-bottom: 16px;
+			    resize: vertical;
+			}
+
+			#content .container #submit {
+                width: 10%;
+			    background-color: #FF6600;
+			    color: white;
+			    padding: 12px 20px;
+			    border: none;
+			    border-radius: 4px;
+			    cursor: pointer;
+			}
+
+			#content .container #submit:hover {
+			    background-color: #BB0000;
+                transition: all 0.5s;
+			}
+    </style>
+    <body>
+        <div id="header">    
+            <div id="head-container1">
+                
+                <div id="homepage" style="width: 130px;">
+                    <a href="../Trang chủ/trangchu.html"><i class="fal fa-home"></i>Trang chủ</a>
+                </div>
+
+                <div id="hotline" style="width: 282px;">
+                    <a href=""><i class="fal fa-headset"></i>Hỗ trợ trực tuyến: 1234.4321</a>
+                </div>
+
+                <div id="tracuubh" style="width: 193px;">
+                    <a href=""><i class="fal fa-shield-check"></i>Tra cứu bảo hành</a>
+                </div>
+
+                <div id="khuyenmai" style="width: 162px;">
+                    <a href=""><i class="fal fa-tags"></i>Khuyến mại</a>
+                </div>
+
+                <div id="contact" style="width: 120px;">
+                    <a href="../Trang liên hệ/Liên hệ.html"><i class="fal fa-phone-volume"></i>Liên hệ</a>
+                </div>
+
+                <div id="tuyendung" style="width: 152px;">
+                    <a href=""><i class="fal fa-bullhorn"></i>Tuyển dụng</a>
+                </div>
+
+                <div id="gioithieu" style="width: 140px;">
+                    <a href="../Trang giới thiệu/Giới thiệu.html"><i class="fal fa-users"></i>Giới thiệu</a>
+                </div>
+            </div>
+
+
+            <div id="head-container2">
+                <div id="logo"> 
+                    <a href="../Trang chủ/trangchu.html"><img src="../logoweb3.png" alt="logo"></a>
+                </div>
+
+                <div id="sub-container2">
+                    <div id="header-sale">
+                        <span style="margin-left: 138px;"><i class="far fa-truck"></i>Miễn phí vận chuyển</span>
+                        <span><i class="far fa-credit-card"></i>Đổi trả miễn phí</span>
+                        <span><i class="fal fa-award"></i>Hàng chính hãng</span>
+                    </div>
+                    <div id="seaching">
+                        <input type="text" name="search" id="search-bar" placeholder="Nhập tên sản phẩm cần tìm">
+                        <a href="../Trang kết quả tìm kiếm/Ketquatimkiem.html" id="find" onclick="dovao()"><i class="far fa-search" style="font-size: 14px"></i></a>
+                    </div>
+                </div>
+
+                <div id="bell">
+                    <a href="" class="a"><i class="fal fa-bell"></i><br>Thông báo</a>
+                </div>
+
+                <div id="login">
+                    <a href="" class="a"><i class="fal fa-user-circle"></i><br>Đăng nhập</a>
+                    <div id="list-login">
+                        <ul style="list-style-type: none; padding: 2px;" >
+                            <li><a href="../Trang đăng ký đăng nhập/Trangdangky.html">Đăng ký</a></li>
+                            <li><a href="../Trang đăng ký đăng nhập/Trangdangnhap.html">Đăng nhập</a></li>
+                            <li><a href="../Trang đăng ký đăng nhập/Trangdangxuat.html">Đăng xuất</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="shopping-cart">
+                    <a href="../Trang giỏ hàng/Tranggiohang.html" class="a"><i class="fal fa-shopping-cart"></i><br>Giỏ hàng</a>
+                </div>
+            </div>
+
+        </div>                                                                                                <!--KẾT THÚC HEADER-->
+
+        <div id="scroll-top">
+            <a href="#header"><i class="far fa-chevron-up"></i></a>
+        </div>
+        
+
+        <div id="content">                                                
+
+            <div class="container">
+                <h3>LIÊN HỆ VỚI CHÚNG TÔI</h3>
+                <form>
+                    <input type="text" id="name" name="name" placeholder="Nhập họ và tên...">
+
+                    <input type="text" id="email" name="email" placeholder="Nhập email...">
+    
+                    <input type="text" id="phone" name="phone" placeholder="Nhập số điện thoại...">
+    
+                    <textarea cols="80" rows="15" id="text" placeholder="Nội dung của bạn"></textarea>
+                    <br>
+                    <input type="submit" id="submit" value="Gửi" onclick="checknhap()">
+                </form>
+            </div>
+            
+        </div>                                                                                             <!--KẾT THÚC CONTENT-->
+
+        
+
+        <div id="footer">                                                                                    <!--PHẦN FOOTER-->
+            <div id="aboutus">
+                <h3>Về chúng tôi</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In voluptatibus placeat, id beatae enim quo ullam voluptates quis dolores aut voluptatem inventore aspernatur fugiat odio vero eos fugit. Exercitationem,
+                </p>
+            </div>
+
+            <div id="list">
+                <h3>Chính sách</h3>
+                <ul>
+                    <li>Chính sách thanh toán</li>
+                    <li>Chính sách bảo hành</li>
+                    <li>Chính sách bảo mật</li>
+                </ul>
+            </div>
+
+            <div id="followus">
+                <h3>Follow us</h3>
+                <ul>
+                    <li><i class="fab fa-facebook"></i> Facebook</li>
+                    <li><i class="fab fa-youtube"></i> Youtube</li>
+                    <li><i class="fab fa-twitter"></i> Twitter</li>
+                </ul>
+            </div>
+        </div>                                                                                              <!--KẾT THÚC FOOTER-->
+
+        <script>
+            function checknhap(){
+                var arr = [];
+                arr[0] = document.getElementById("name").value;
+                arr[1] = document.getElementById("email").value;
+                arr[2] = document.getElementById("phone").value;
+                arr[3] = document.getElementById("text").value;
+                            
+                for(var i = 0; i < arr.length; i++){
+                    if(arr[i] === ""){
+                        alert("Chưa điền đầy đủ thông tin!!! Mời nhập lại");
+                        break;
+                    }
+                }
+
+                if(i === arr.length){
+                    alert("Gửi thành công!!!");
+                }
+            }
+        </script>
+
+<script language="javascript" src="../timkiem.js"></script>
+
+<script>
+    function dovao() {
+        var result = document.getElementById("search-bar").value;
+        localStorage.setItem("tukhoa", result);
+    }
+</script>
+    </body>
+</html>

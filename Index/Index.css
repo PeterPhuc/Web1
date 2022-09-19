@@ -1,0 +1,307 @@
+/*Phần content*/
+#content {
+    width: 87%;
+    margin: 0px auto;
+    margin-top: 161px;
+    border: solid 1px #EEEEEE;
+    position: relative;
+    z-index: 1;
+}
+
+#content #content-container1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#content #content-container1 #menu-product {
+    font-size: 21px;
+    width: 20.5%;
+    height: 359px;
+    margin-right: 9px;
+    background-color: #dddbdb;
+    border: solid 1px #DDDDDD;
+    position: relative;
+}
+
+#content #content-container1 #menu-product #main-menu {
+    list-style-type: none;
+    margin-top: 6px;
+    padding-left: 0px;
+}
+
+#content #content-container1 #menu-product #main-menu > li {
+    padding-left: 36px;
+    padding: 8px 0px 8px 36px;
+}
+
+#content #content-container1 #menu-product #main-menu > li:hover {
+    background-color: #3366FF;
+    color: white;
+    transition: all 0.2s;
+}
+
+#content #content-container1 #menu-product #main-menu > li #sub-menu {
+    width: 267%;
+    height: 362px;
+    position: absolute;
+    top: -1px;
+    left: 100%;
+    background-color: #f0efea;
+    z-index: 10;
+
+    display: none;
+}
+
+#content #content-container1 #menu-product #main-menu > li #sub-menu ul {
+    list-style-type: none;
+    margin-top: 10px;
+    color: red;
+    font-weight: bold;
+}
+
+
+#content #content-container1 #menu-product #main-menu > li #sub-menu ul li {
+    padding: 0px;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+#content #content-container1 #menu-product #main-menu > li #sub-menu ul li:first-child {
+    margin-top: 10px;
+}
+
+#content #content-container1 #menu-product #main-menu > li #sub-menu ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
+#content #content-container1 #menu-product #main-menu > li #sub-menu ul li a:hover {
+    color: blue;
+}
+
+
+#content #content-container1 #menu-product #main-menu > li:hover #sub-menu {
+    display: block;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#content #content-container1 #slide-pictureintro {          /*Phần slide ảnh*/
+    width: 54%;
+}
+
+#content #content-container1 #slide-pictureintro #divslide {
+    width: 100%;
+    height: 362px;
+    overflow: hidden;
+    position: relative;
+}
+
+#content #content-container1 #slide-pictureintro #divslide .span {
+    font-size: 52px;
+    position: absolute;
+}
+
+#content #content-container1 #slide-pictureintro #divslide .span i {
+    color: rgb(116, 109, 109);
+    display: none;
+}
+
+#content #content-container1 #slide-pictureintro #divslide:hover i {         
+    display: block;
+}
+
+#content #content-container1 #slide-pictureintro #divslide .span i:hover {
+    color: white;
+}
+
+
+#content #content-container1 #slide-pictureintro #divslide #span-left {
+    top: 150px;
+    left: 4px;
+}
+
+#content #content-container1 #slide-pictureintro #divslide #span-right {
+    top: 150px;
+    right: 4px;
+}
+
+#content #content-container1 #slide-pictureintro #divslide #slider {
+    width: 900%;
+    height: 100%;
+    transition: all 0.8s;
+}
+
+#content #content-container1 #slide-pictureintro #divslide #slider .picture {
+    width: 11.11%;
+    height: 100%;
+    float: left;
+}
+
+#content #content-container1 #slide-pictureintro #divslide #slider .picture img {
+    width: 100%;
+    height: 100%;
+}
+
+#content #content-container1 #slide-pictureintro #divslide #slider::after {
+    content: "";
+    clear: both;
+}
+
+#content #content-container1 #slide-pictureintro #span-in {
+    position: absolute;
+    top: 333px;
+    left: 266px;
+}
+
+#content #content-container1 #slide-pictureintro .span:hover , #span-in input:hover  {
+    cursor: pointer;
+}
+
+
+#content #content-container1 #intro-picture1 {
+    width: 24%;
+    margin-left: 3px;
+}
+
+#content #content-container1 #intro-picture1 #p1, #p2 {
+    width: 100%;
+    height: 184px;
+}
+
+#content #content-container1 #intro-picture1 #p1 img, #p2 img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+#content #content-container2 {
+    margin-top: 50px;
+}
+
+#content #content-container2 .list-product {
+    margin-top: 70px;
+}
+
+#content #content-container2 .list-product .title {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 22px;
+    padding: 12px 0px;
+    text-align: center;
+    background-color: #546ce8;
+    border-radius: 20px;
+}
+
+
+#content #content-container2 .list-product .products {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+#content #content-container2 .list-product .products .sanpham {
+    font-size: 17px;
+    width: 24%;
+    margin-left: 3px;
+    padding: 8px;
+    border: 1px solid #D3D3D3;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+#content #content-container2 .list-product .products .sanpham #picture-sp  {
+    width: 100%;
+    height: 220px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#content #content-container2 .list-product .products .sanpham img {
+    width: 80%;
+    height: 90%;
+}
+
+#content #content-container2 .list-product .products .sanpham:hover #picture-sp img {
+    transition: all 0.5s;
+    transform: scale(1.2);
+}
+
+
+
+
+#content #content-container2 .list-product .products .sanpham h2 {
+    margin: 0px;
+    color: #ffa500;
+}
+
+#content #content-container2 .list-product .products .sanpham span {
+    font-size: 18px;
+    background-color: red;
+    padding: 4px;
+    margin-left: 56px;
+    color: white;
+}
+
+
+#content #content-container2 .list-product .products .sanpham del {
+    font-size: 18px;
+}
+
+
+#content #content-container2 .list-product .products .sanpham .links {
+    width: 100%;
+    margin: 12px 0px;
+}
+
+#content #content-container2 .list-product .products .sanpham .links a {
+    text-decoration: none;
+}
+
+#content #content-container2 .list-product .products .sanpham:hover {
+    border: solid 1px #ff0000;
+    opacity: 0.9;
+}
+
+
+#content #content-container2 .list-product .products .sanpham .links a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+#content #note {
+    width: 100%;
+    margin: 50px 0px;
+    padding: 0px 50px;
+    box-sizing: border-box;
+}
+
+#content .title {
+    font-size: 22px;
+    color: #CC0000	;
+}
